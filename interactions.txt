@@ -1,0 +1,13 @@
+Interactions:
+
+1. Cloud - When the cloud is pressed and dragged, the object will move with the mouse and change locations.
+2. Tree - When the leaves on the tree are pressed, the leaves on the tree will change color to Orange. When clicked again, they will return to the original color.
+3. Car - When the top part of the car is pressed, the top frame will change locations and size, in order to make the vehicle look different. When clicked again, it will return to it's original size and location.
+
+Association:
+1. Sun & Background - The sun uses association with the background, in which the background changes to pink when the sun is pressed and dragged (moved). Neither is a component of one another, and are not components of the same object (except Scene).
+
+Interface Polymorphism:
+1. Cloud - The cloud uses the Movable interface, in which the object can be dragged and moved around the GUI. 
+2. Sun - The sun also includes the Movable interface, in which the object can be dragged and moved around the GUI, similar to the clouds.
+3. Tree - The tree uses the Colorable interface, in which the object changes color when pressed by the mouse, and returns to its original color when pressed again.
